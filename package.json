@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-webapi-jwt-postgres",
+  "version": "1.0.0",
+  "description": "Node.js + exporess + JWT + PostgresSQL",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "jwt",
+    "postgres"
+  ],
+  "author": "calvin",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "sequelize": "^6.20.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
