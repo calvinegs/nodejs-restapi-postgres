@@ -1,13 +1,13 @@
 const express = require("express");
 const dotenv = require("dotenv");
+const cors = require("cors");
 dotenv.config();
-// const cors = require("cors");
 const app = express();
-/* var corsOptions = {
-    origin: "http://localhost:8081"
+var corsOptions = {
+    origin: "http://localhost:4200"
 };
 app.use(cors(corsOptions));
-*/
+
 
 /* const { Sequelize } = require('sequelize');
 const sequelize = new Sequelize('testdb', 'postgres', '12345', {

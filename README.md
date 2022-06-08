@@ -3,8 +3,8 @@ Node.js + express 來建立 REST API 服務，同時為提高網路安全性採�
 Technology:
 - NodeJs 17.6.0
 - Express 4.17.1
-- cors 
-- crypto-js             // 加密套件
+- cors 2,8.5
+- crypto-js 4.1.1       // 加密套件
 - jsonwebtoken 8.5.1    // 支援 Json Web Token　的功能套件
 - Sequelize 6.20.1      // ORM 套件
 - pg 8.7.3
